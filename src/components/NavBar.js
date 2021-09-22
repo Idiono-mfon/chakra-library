@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { url } from "../config/Url";
 
 const NavBar = () => {
-  const { homeUrl, signInUrl, staffSectionUrl } = url;
+  const { homeUrl, signInUrl, staffSectionUrl, statistics } = url;
 
   return (
     <Flex justify="space-between">
@@ -28,6 +28,11 @@ const NavBar = () => {
         <Box>
           <Link to={staffSectionUrl}>
             <Text fontSize="lg">Staff Section</Text>
+          </Link>
+        </Box>
+        <Box>
+          <Link to={statistics}>
+            <Text fontSize="lg">Statistics</Text>
           </Link>
         </Box>
       </HStack>

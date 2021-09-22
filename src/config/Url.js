@@ -4,6 +4,7 @@ export const url = {
   homeUrl: "/",
   signInUrl: "/sign-up",
   staffSectionUrl: "/staff-section",
+  statistics: "/statistics",
 };
 
 // export const remote = {
